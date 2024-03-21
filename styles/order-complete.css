@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #004d99; /* Joe's Pizza Shop title color */
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+
+#orderDetails {
+    width: 60%;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #004d99;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+
+button {
+    background-color: #002e5c;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button a {
+    color: #ffffff;
+    text-decoration: none;
+}

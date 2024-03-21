@@ -1,0 +1,60 @@
+/* Sets a comfortable reading font and a neutral background for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+h1, h2 {
+    color: #333;
+}
+
+/* Styles the order summary to stand out against the background, with shadow for depth */
+#orderSummary {
+    width: 60%;
+    background-color: #fff;
+    margin: 20px auto; /* Centers the block with auto margins */
+    padding: 20px;
+    border-radius: 5px; /* Rounded corners for a modern look */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for 3D effect */
+    margin-top: 50px; /* Extra spacing from the top */
+    margin-bottom: 20px;
+}
+
+/* Adjusts paragraph color for contrast and readability, and sets spacing */
+p {
+    color: #666;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Aligns confirmation buttons centrally with spacing for accessibility */
+#confirmationButtons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Ensures buttons don't touch each other */
+}
+
+/* Sets a visually appealing primary action button with an interactive hover effect */
+button {
+    background-color: #008CBA; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; 
+    font-size: 16px; /* Readable text size */
+    margin-top: 30px;
+}
+
+/* Darkens the button on hover for an interactive feedback */
+button:hover {
+    background-color: #005f73;
+}
+
