@@ -49,6 +49,7 @@
         <p>Address: <span><?php echo $_SESSION['address']; ?></span></p>
         <p>Quantity: <span><?php echo $_SESSION['quantity']; ?></span></p>
         <p>Pizza Size: <span><?php echo $_SESSION['pizzaSize']; ?></span></p>
+        <p>Pizza Shape: <span><?php echo $_SESSION['pizzaShape']; ?></span></p>
         <p>Toppings: <span><?php echo $_SESSION['toppingsString']; ?></span></p>
         <p>Crust Type: <span><?php echo $_SESSION['crustType']; ?></span></p>
         <p>Dine Option: <span><?php echo $_SESSION['dineOption']; ?></span></p>

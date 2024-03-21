@@ -8,6 +8,7 @@ $lastName = $_SESSION['lastName'] ?? 'Not provided';
 $address = $_SESSION['address'] ?? 'Not provided';
 $quantity = $_SESSION['quantity'] ?? 0;
 $pizzaSize = $_SESSION['pizzaSize'] ?? 'Not specified';
+$pizzaShape = $_SESSION['pizzaShape'] ?? 'Not specified';
 $toppingsString = $_SESSION['toppingsString'] ?? 'Not specified';
 $crustType = $_SESSION['crustType'] ?? 'Not specified';
 $dineOption = $_SESSION['dineOption'] ?? 'Not specified';
@@ -33,6 +34,7 @@ $dineOption = $_SESSION['dineOption'] ?? 'Not specified';
         <p>Address: <?php echo htmlspecialchars($address); ?></p>
         <p>Quantity: <?php echo htmlspecialchars($quantity); ?></p>
         <p>Pizza Size: <?php echo htmlspecialchars($pizzaSize); ?></p>
+        <p>Pizza Shape: <?php echo htmlspecialchars($pizzaShape); ?></p>
         <p>Toppings: <?php echo htmlspecialchars($toppingsString); ?></p>
         <p>Crust Type: <?php echo htmlspecialchars($crustType); ?></p>
         <p>Dine Option: <?php echo htmlspecialchars($dineOption); ?></p>
