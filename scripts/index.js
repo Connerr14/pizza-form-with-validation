@@ -1,3 +1,17 @@
+    // Get dom elements needed for form validation and submission
+    const form = document.getElementById('buildPizza');
+    const submitButton = document.getElementById('submitButton');
+    const formStatus = document.getElementById('formStatus');
+
+    // Get the form elements
+    const firstNameField = document.getElementById('firstName');
+    const lastNameField = document.getElementById('lastName');
+    const addressField = document.getElementById('address1');
+    const quantityInput = document.getElementById('amountOfPizzas');
+    const pizzaSizes = document.getElementById('pizzaSizes');
+    const crustType = document.getElementById('crustType');
+
+
 
 // Define the PizzaOrder class
 class PizzaOrder {
@@ -25,20 +39,6 @@ class PizzaOrder {
         }
     }
 }
-
-    // Get dom elements needed for form validation and submission
-    const form = document.getElementById('buildPizza');
-    const submitButton = document.getElementById('submitButton');
-    const formStatus = document.getElementById('formStatus');
-
-    // Get the form elements
-    const firstNameField = document.getElementById('firstName');
-    const lastNameField = document.getElementById('lastName');
-    const addressField = document.getElementById('address1');
-    const quantityInput = document.getElementById('amountOfPizzas');
-    const pizzaSizes = document.getElementById('pizzaSizes');
-    const crustType = document.getElementById('crustType');
-
 
 
     // Event listener for the submit button
